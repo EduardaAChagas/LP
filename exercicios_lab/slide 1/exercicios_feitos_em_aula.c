@@ -134,7 +134,16 @@ int main(void){
   return 0;
 }
 */
+//Seja x=5 e considere a instrução y = x++ + ++x. Quais os valores das variáveis x
+//e y após a execução dessa instrução? Por quê?
 
+int main(void){
+  int x=5,y;
+  y=x++ + ++x;
+  printf("y=%d\nx=%d",y,x);
+  getch();
+  return 0;
+}
 
 
 
