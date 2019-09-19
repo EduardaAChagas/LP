@@ -100,7 +100,7 @@ int main(){
 Escreva um programa em C para checar se um caracter é uma letra, dígito ou
 caractere especial.
 DICA: façam o seguinte teste: printf("%d", 'a');
-*/
+
 int main(){
     char c;
     int aux;
@@ -115,7 +115,24 @@ int main(){
         return 0;
     }
 }
+*/
+//Usando o switch, crie uma calculadora simples (operações de +,-,*, e /). O
+//usuário digita uma expressão na forma valor1 oper valor2
 
+int main(void){
+  int a,b;
+  char c;
+  scanf("%d %c %d",&a,&c,&b);
+  switch(c){
+    case '+': printf("%d",a+b); break;
+    case '-': printf("%d",a-b); break;
+    case '*': printf("%d",a*b); break;
+    case '/': printf("%d",a/b); break;
+    default : printf("a\n"); break;
+  }
+  getch();
+  return 0;
+}
 
 
 
