@@ -34,11 +34,11 @@ int main(void){
     return 0;
 }
 */
-/*Desenvolver um algoritmo para ler um número “x” e calcular
-e imprimir o valor de “y” de acordo com as condições abaixo:
+/*Desenvolver um algoritmo para ler um nï¿½mero ï¿½xï¿½ e calcular
+e imprimir o valor de ï¿½yï¿½ de acordo com as condiï¿½ï¿½es abaixo:
 - y = x , se x < 1
 - y = 0 , se x = 1
-- y = x², se x > 1
+- y = xï¿½, se x > 1
 */
 
 /*
@@ -55,15 +55,15 @@ int main(void){
 }
 */
 
-/*Fazer um programa em C que dado três valores A, B e C, verificar se eles formam
-um triângulo. Formando triângulo, dizer se é triângulo equilátero, isósceles ou
+/*Fazer um programa em C que dado trï¿½s valores A, B e C, verificar se eles formam
+um triï¿½ngulo. Formando triï¿½ngulo, dizer se ï¿½ triï¿½ngulo equilï¿½tero, isï¿½sceles ou
 escaleno.
-- Condição para ser triângulo: a soma do comprimento de dois lados deve ser
+- Condiï¿½ï¿½o para ser triï¿½ngulo: a soma do comprimento de dois lados deve ser
 maior (ou igual) ao comprimento do terceiro lado.
-- Tipos de triângulos:
-- triângulo equilátero: todos os lados são iguais
-- triângulo isósceles: dois lados iguais
-- triângulo escaleno: todos os lados são diferentes
+- Tipos de triï¿½ngulos:
+- triï¿½ngulo equilï¿½tero: todos os lados sï¿½o iguais
+- triï¿½ngulo isï¿½sceles: dois lados iguais
+- triï¿½ngulo escaleno: todos os lados sï¿½o diferentes
 */
 /*
 int eh_triangulo(x,y,z){
@@ -82,9 +82,9 @@ int main(void){
     return 0;
 }
 */
-//Faça um programa em C que identifique se a raiz quadrada de um dado número
-//inteiro X é inteira, ou seja, se X é um número quadrado perfeito
-
+//Faï¿½a um programa em C que identifique se a raiz quadrada de um dado nï¿½mero
+//inteiro X ï¿½ inteira, ou seja, se X ï¿½ um nï¿½mero quadrado perfeito
+/*
 #include <math.h>
 int main(){
     int x,aux1,aux2;
@@ -95,6 +95,44 @@ int main(){
     else printf("a raiz do numero nao eh um quadrado perfeito");
     return 0;
 }
+*/
+/*
+Escreva um programa em C para checar se um caracter Ã© uma letra, dÃ­gito ou
+caractere especial.
+DICA: faÃ§am o seguinte teste: printf("%d", 'a');
+*/
+int main(){
+    char c;
+    int aux;
+    scanf("%c",&c);
+    aux=c;
+    if (aux>32){
+        if (aux>=48 && aux<=57) printf("numero\n");
+        else if (aux>=65 && aux<=122) printf("letra\n");
+        else printf("carctere especial\n");
+        printf("%d\n",c);
+        getch();
+        return 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
