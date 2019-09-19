@@ -118,7 +118,7 @@ int main(){
 */
 //Usando o switch, crie uma calculadora simples (operações de +,-,*, e /). O
 //usuário digita uma expressão na forma valor1 oper valor2
-
+/*
 int main(void){
   int a,b;
   char c;
@@ -133,6 +133,8 @@ int main(void){
   getch();
   return 0;
 }
+*/
+
 
 
 
