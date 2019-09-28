@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+/*
 int main(void){
   int n;
   scanf("%d",&n);
@@ -23,4 +24,17 @@ int main(void){
   printf("media = %.2f\n",media);
   return 0;
 }//main
+*/
+//fatorial de um numero
 
+long long int fatorial(int x){
+	if (x == 0) return 1;
+	return (x * fatorial(x-1) * 1);
+}
+int main(void){
+	int num;
+	scanf("%d",&num);
+	printf("%lld",fatorial(num));
+	getch();
+	return 0;
+}
