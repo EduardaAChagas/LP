@@ -57,6 +57,22 @@ int main(){
 	return 0;
 }//main
 */
+//Receba um inteiro e mostre a quantidade de digitos
+/*
+#include <math.h>
+
+int main(){
+	int x,div,cont;
+	scanf("%d",&x);
+	div=abs(x);
+	cont=1;
+	while (div>10) {
+		div=div/10;
+		cont++;
+	}//while
+	printf("%d",cont);
+}//main
+*/
 
 
 
