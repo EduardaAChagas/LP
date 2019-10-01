@@ -26,7 +26,7 @@ int main(void){
 }//main
 */
 //fatorial de um numero
-
+/*
 long long int fatorial(int x){
 	if (x == 0) return 1;
 	return (x * fatorial(x-1) * 1);
@@ -38,3 +38,49 @@ int main(void){
 	getch();
 	return 0;
 }
+*/
+// Dado um inteiro x, desenhe um padrão de piramide de tamanho x utilizando ‘*’
+/*
+#include <string.h>
+int main(){
+	int x,i,j;
+	char a='*';
+	scanf("%d",&x);
+	int cont=x;
+	for (i=0;i<x+1;i++){
+		for (j=0;j<i;j++){
+			printf("%c",a);
+			cont--;
+		}//for interno
+		printf("\n");
+	}//for externo
+	return 0;
+}//main
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
