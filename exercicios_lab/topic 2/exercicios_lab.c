@@ -71,8 +71,54 @@ int main(){
 		cont++;
 	}//while
 	printf("%d",cont);
+	return 0;
 }//main
 */
+//leia um numero inteiro maior que 10 e depois o mostre na ordem inversa
+#include <math.h>
+
+int main(){
+	int x,a,b,c,d;
+	scanf("%d",&x);
+	a=abs(x);
+	c=x;
+	if(x<10) printf("o numero precisa ser maior que 10");
+	else{
+		while(c>0){
+			a=c%10;
+			b=ceil(c/10);
+			printf("%d",a);
+			c=b;
+		}
+	}
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
