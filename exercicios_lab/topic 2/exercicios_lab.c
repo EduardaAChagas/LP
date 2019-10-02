@@ -75,6 +75,7 @@ int main(){
 }//main
 */
 //leia um numero inteiro maior que 10 e depois o mostre na ordem inversa
+/*
 #include <math.h>
 
 int main(){
@@ -93,7 +94,7 @@ int main(){
 	}
 	return 0;
 }
-
+*/
 
 
 
