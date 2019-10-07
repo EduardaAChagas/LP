@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/*
 int main(){
 	int a[5][5],at[5][5];
 	srand(time(NULL));
@@ -32,3 +32,37 @@ int main(){
 	}
 	return 0;
 }
+*/
+//strings
+//scanf le ate o primeiro espaço em branco, nao precisa do &
+//
+
+int main(){
+	int nome[8];
+	fgets(nome,sizeof(nome),stdin);
+	printf("%s",nome);
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
