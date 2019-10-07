@@ -38,7 +38,7 @@ int main(){
 //
 
 int main(){
-	int nome[8];
+	int nome[30];
 	fgets(nome,sizeof(nome),stdin);
 	printf("%s",nome);
 	return 0;
