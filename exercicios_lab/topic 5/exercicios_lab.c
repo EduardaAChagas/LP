@@ -43,7 +43,7 @@ int main(){
 	printf("%s",nome);
 	return 0;
 }
-*/
+
 #include <string.h>
 
 
@@ -51,12 +51,53 @@ int main(){
 	char str[100];
 	int i=1;
 	fgets(str,sizeof(str),stdin);
-	while(str[i]!='\0'){
-		i++;
+	while(str[++i]!='\0'){
 	}
-	printf("%d",i);
+	printf("%d",i-1);
 	return 0;
 }
+*/
+int main(){
+	char str[100];
+	int a=0,z;
+	fgets(str,sizeof(str),stdin);
+	printf("%s", str);
+	z=strlen(str)-2;
+	printf("z: %d\n",z);
+	while (a<z){
+		if (str[a]!=str[z]) {
+			break;
+		}
+		a++;
+		z--;
+	}
+	printf("z: %d\n",z);
+	printf("a: %d\n",a);
+	if (a<z) printf("nao eh");
+	else printf("eh");
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
