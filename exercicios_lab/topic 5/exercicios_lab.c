@@ -35,7 +35,7 @@ int main(){
 */
 //strings
 //scanf le ate o primeiro espaço em branco, nao precisa do &
-//
+/*
 
 int main(){
 	int nome[30];
@@ -43,7 +43,20 @@ int main(){
 	printf("%s",nome);
 	return 0;
 }
+*/
+#include <string.h>
 
+
+int main(){
+	char str[100];
+	int i=1;
+	fgets(str,sizeof(str),stdin);
+	while(str[i]!='\0'){
+		i++;
+	}
+	printf("%d",i);
+	return 0;
+}
 
 
 
