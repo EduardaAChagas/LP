@@ -34,7 +34,7 @@ int main(){
 }
 */
 //strings
-//scanf le ate o primeiro espaço em branco, nao precisa do &
+//scanf le ate o primeiro espaï¿½o em branco, nao precisa do &
 /*
 
 int main(){
@@ -76,47 +76,4 @@ int main(){
 	if (a<z) printf("nao eh");
 	else printf("eh");
 	return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}

@@ -39,7 +39,7 @@ int main(void){
 	return 0;
 }
 */
-// Dado um inteiro x, desenhe um padrão de piramide de tamanho x utilizando ‘*’
+// Dado um inteiro x, desenhe um padrï¿½o de piramide de tamanho x utilizando ï¿½*ï¿½
 /*
 #include <string.h>
 int main(){
@@ -95,55 +95,3 @@ int main(){
 	return 0;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

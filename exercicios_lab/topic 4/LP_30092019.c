@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Escreva um programa em C para deletar um valor de uma certa posição
+//Escreva um programa em C para deletar um valor de uma certa posiï¿½ï¿½o
 //(fornecida como entrada) de um vetor, em seguida, mostre esse vetor.
 /*
 int main(void){
@@ -48,17 +48,3 @@ int main(void){
 	return 0;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-

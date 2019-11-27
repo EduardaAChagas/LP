@@ -23,7 +23,7 @@ int main(){
 */
 int main(){
 	int n,i;
-	printf("insira a quantidade de posições do vetor\n");
+	printf("insira a quantidade de posiï¿½ï¿½es do vetor\n");
 	scanf("%d",&n);
 	int v[n],v2[n];
 	for (i=0;i<n;i++){
@@ -37,40 +37,3 @@ int main(){
 	}//for3	
 	getch();
 }//main
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
