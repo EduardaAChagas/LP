@@ -15,6 +15,7 @@ int main(){
 }
 */
 //Crie um programa em C para checar se uma string é palíndromo ou não
+/*
 int main(){
     char str[100];
 	int a=0,z;
@@ -34,4 +35,22 @@ int main(){
 	if (a<z) printf("nao eh\n");
 	else printf("eh");
 	return 0;
+}
+*/
+
+//escreva um programa em C para contar o número total de palavras em uma string usando loop
+
+int main(){
+    int i,espac=0;
+    char str[100];
+    fgets(str,sizeof(str),stdin);
+    int tam=strlen(str)-1;
+    for (i=0;i<tam;i++){ 
+        if(str[i]==' '){
+            espac++;
+        }
+    }
+    espac++;
+    printf("%d\n",espac);
+    return 0;
 }
