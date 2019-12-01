@@ -33,6 +33,7 @@ int main(void) {
 	else printf("eh palindromo");
   return 0;
 *///questao 3
+/*
 int main(void) {
   char str[100],aux;
 
@@ -50,3 +51,33 @@ int main(void) {
   return 0;
 }
 
+*/
+//questao 4
+int main(void) {
+  char str[100],bus[10];
+	int num,num2,cont=0;
+	printf("bota ai a estringue\n");
+	fgets(str,sizeof(str),stdin);
+	printf("bota ai o q tu que busca na estringue\n");
+  fgets(bus,sizeof(bus),stdin);
+	num=strlen(str)-1;
+  num2=strlen(bus)-1;
+	for (int i=0;i<num;i++){
+    cont=0;
+		for (int j=0;j<num2;j++){
+      printf("%c %c\n",str[i+j],bus[j]);
+			if (str[i+j]==bus[j]){
+				cont++;
+        if(cont==num2)
+          break;
+			}
+		}
+    if(cont==num2)
+      break;
+	}
+  if(cont==num2) 
+				printf("tem");
+  else
+    printf("nao tem porra");
+  return 0;
+}
