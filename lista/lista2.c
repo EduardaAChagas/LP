@@ -32,4 +32,21 @@ int main(void) {
 	if (e<a) printf("nao eh palindromo");
 	else printf("eh palindromo");
   return 0;
-*/
+*///questao 3
+int main(void) {
+  char str[100],aux;
+
+  int a,e=0;
+	fgets(str,sizeof(str),stdin);
+  a=strlen(str)-2;
+  while(e<a){
+    aux=str[a];
+    str[a]=str[e];
+    str[e]=aux;
+    e++;
+    a=a-1;
+  }
+  printf("%s",str);
+  return 0;
+}
+
